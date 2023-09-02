@@ -1,7 +1,5 @@
-dwave-ocean-sdk>=6.4.1
-
-jupyter
-jupyter_contrib_nbextensions
-
-nbformat
+qiskit==0.44.0
+qiskit-ibm-runtime==0.12.0
+qiskit[visualization]
+jupyter==1.0.0
 

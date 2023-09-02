@@ -1,17 +1,3 @@
-# Copyright 2020 D-Wave Systems Inc.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
 import os
 import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
@@ -72,20 +58,3 @@ class TestJupyterNotebook(unittest.TestCase):
         nb, errors = robust_run_jn(jn_file, MAX_RUN_TIME, MAX_EMBEDDING_RETRIES)
 
         self.assertEqual(errors, [])
-
-        # Test cell outputs:
-        # Section Step 2: Convert to a BQM, code cell 1 (all 3-bit binary combinations)
-        # self.assertIn('(0, 0, 0, 0)', nb["cells"][7]["outputs"][1]["data"]['text/plain'])
-
-        # Section Step 2: Convert to a BQM, code cell 2, print(and_bqm.quadratic)
-        # cell_output = cell_text(nb, 9)
-        # self.assertTrue("('x3', 'x2')" in cell_output or "('x2', 'x3')" in cell_output)
-
-        # Section Step 3: Solve By Minimization, print ExactSolver solution
-        # self.assertIn("8 rows", cell_text(nb, 13))
-
-        # Section Step 1: Express Factoring as Multiplication Circuit, print binary P
-        # self.assertIn("010101", cell_text(nb, 17))
-
-        # Section Step 2: Convert to a BQM, print post-fix variables
-        # self.assertIn("21 non-fixed variables", cell_text(nb, 22))

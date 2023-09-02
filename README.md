@@ -1,52 +1,28 @@
-<!--- [![Open in Leap IDE](https://cdn-assets.cloud.dwavesys.com/shared/latest/badges/leapide.svg)](  https://ide.dwavesys.io/#https://github.com/dwave-examples/factoring-notebook)[![Linux/Mac/Windows build status](  https://circleci.com/gh/dwave-examples/factoring-notebook.svg?style=shield)](  https://circleci.com/gh/dwave-examples/factoring-notebook) --->
+# Quantum Circuits with Qiskit
 
-# Quantum Annealing with Ocean
-
-This jupyter notebook is a supplementary resource to the author’s paper _Annealing Quantum Computing: An Overview_. The paper aims to provide an accessible overview of annealing quantum computing. We give high-level explanations of the key quantum properties that are leveraged by a quantum annealer, along with the quantum mathematical formalism involved and references for further reading.
+This jupyter notebook is a supplementary resource to the author’s working paper  _Quantum Computing: An Overview_. The paper aims to provide an accessible overview of quantum computing. We give high-level explanations of the key quantum properties that are leveraged by a quantum computer, along with the quantum mathematical formalism involved and references for further reading.
 
 The notebook has the following sections:
-
-   1. Ising and QUBO model
+  
+   1. One qubit circuit
    
-       1.1 Exact solution
+       2.1. Quantum Coin Game
        
-       1.2 Simulated annealing
-       
-   2. Problem to QUBO
-       
-       2.1 Exact solver
-       
-       2.2 Run on a quantum annealer processor
-       
-       2.3 Run on a Hybrid solver
-
-   3. Problem constrains
+   2. Bell states circuit
    
-       3.1 Run on a Hybrid CQM solver
-   
-   4. Embedding
+       2.1. Run on a quantum simulator
+       
+       2.2. Run on a real quantum processor
 
 
 ## Installation
 
-<!--- You can run this example [in the Leap IDE](https://ide.dwavesys.io/#https://github.com/dwave-examples). --->
+
 
 Install requirements locally (ideally, in a virtual environment):
 
     pip install -r requirements.txt
 
-<!--- ## Usage
-
-To enable notebook extensions[^1]:
-
-```bash
-jupyter contrib nbextension install --sys-prefix
-jupyter nbextension enable toc2/main
-jupyter nbextension enable exercise/main
-jupyter nbextension enable exercise2/main
-jupyter nbextension enable python-markdown/main
-
-``` --->
 
 
 To run the notebook:
@@ -59,8 +35,8 @@ jupyter notebook
 
 ## References
 
-R. Pereira da Silva (2023), [_Annealing Quantum Computing: An Overview_](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4501788) SSRN Electronic Journal
-
+Pereira da Silva, R. (2023), [_Quantum Computing: An Overview_](http://dx.doi.org/10.2139/ssrn.4347584) SSRN Electronic Journal
+ 
 ## License
 
 Released under the Apache License 2.0. See LICENSE file.
