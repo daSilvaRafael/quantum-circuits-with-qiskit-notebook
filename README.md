@@ -4,15 +4,17 @@ This jupyter notebook is a supplementary resource to the author’s working pape
 
 The notebook has the following sections:
   
-   1. One qubit circuit
+   1. IBM Quantum Experience account 
+   
+   2. One qubit circuit
    
        2.1. Quantum Coin Game
        
-   2. Bell states circuit
+   3. Bell states circuit
    
-       2.1. Run on a quantum simulator
+       3.1. Run on a quantum simulator
        
-       2.2. Run on a real quantum processor
+       3.2. Run on a real quantum processor
 
 
 ## Installation
