@@ -37,7 +37,7 @@ jupyter notebook
 
 ## References
 
-Pereira da Silva, R. (2023), [Gate-based Quantum Computing: An Overview_](http://dx.doi.org/10.2139/ssrn.4347584) SSRN Electronic Journal
+Pereira da Silva, R. (2023), [_Gate-based Quantum Computing: An Overview_](http://dx.doi.org/10.2139/ssrn.4347584) SSRN Electronic Journal
  
 ## License
 
